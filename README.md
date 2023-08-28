@@ -65,7 +65,7 @@ As C++ is close to C, C# and Java, it makes it easy for programmers to switch to
 |/= |	x /= 3 	|x = x / 3 	|
 |%= |	x %= 3 	|x = x % 3 	|
 |&= |	x &= 3 	|x = x & 3 	|
-||= |	x |= 3 	|x = x | 3 	|
+|1= |	x |= 3 	|x = x | 3 	|
 |^= |	x ^= 3 	|x = x ^ 3 	|
 |>>= |	x >>= 3 |x = x >> 3 |	
 |<<= |	x <<= 3 |x = x << 3 |	
@@ -84,7 +84,7 @@ As C++ is close to C, C# and Java, it makes it easy for programmers to switch to
 |Operator|Name|Description|Example|
 |-----|-----|-----|-----|
 |&&  |	Logical and |	Returns true if both statements are true |	x |< 5 &&  x < 10 	|
-|   |	Logical or |	Returns true if one of the statements is true |	x |< 5 || x < 4 |	
+| 11 |	Logical or |	Returns true if one of the statements is true |	x |< 5 || x < 4 |	
 |! |	Logical not |	Reverse the result, returns false if the result is true |	!(x < 5 && x < 10) 	|
 
 
