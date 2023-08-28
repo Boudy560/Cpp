@@ -56,9 +56,9 @@ As C++ is close to C, C# and Java, it makes it easy for programmers to switch to
 |--|Decrement|Decreases the value of a variable by 1| --x|
 
  ## Assignment operators 
-|Operator|Example| 	Same As|
-|-----|-----|-----|-----|
-|= |	x = 5 | x = 5 	|
+|Operator|Example|Same As|
+|-----|-----|-----|
+|= |	x = 5 | x = 5 |
 |+= |	x += 3| x = x + 3 |	
 |-= |	x -= 3 |x = x - 3 |	
 |*= |	x *= 3 	|x = x * 3 |	
@@ -67,13 +67,13 @@ As C++ is close to C, C# and Java, it makes it easy for programmers to switch to
 |&= |	x &= 3 	|x = x & 3 	|
 |1= |	x |= 3 	|x = x | 3 	|
 |^= |	x ^= 3 	|x = x ^ 3 	|
-|>>= |	x >>= 3 |x = x >> 3 |	
-|<<= |	x <<= 3 |x = x << 3 |	
+|>>= |x >>= 3 |x = x >> 3 |	
+|<<= |x <<= 3 |x = x << 3 |	
 
 ## comparison operators
 
 |Operator|Name|Example|
-|-----|-----|-----|-----|
+|-----|-----|-----|
 |== |Equal to |	x == y 	|
 |!= |Not equal |	x != y| 	
 |> 	|Greater than |	x > y |	
